@@ -1,4 +1,4 @@
-# Open Lovable
+# Open Lovable (Fixed)
 
 Chat with AI to build React apps instantly. An example app made by the [Firecrawl](https://firecrawl.dev/?ref=open-lovable-github) team. For a complete cloud solution, check out [Lovable.dev ❤️](https://lovable.dev/).
 
