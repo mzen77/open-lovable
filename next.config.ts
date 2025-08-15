@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  swcMinify: true,
   experimental: {
     serverActions: {
       bodySizeLimit: '10mb',
@@ -10,7 +9,7 @@ const nextConfig: NextConfig = {
   },
   // Optimize for production build
   typescript: {
-    // Skip type checking during build to speed up deployment
+    // Don't skip type checking - ensure quality
     ignoreBuildErrors: false,
   },
   eslint: {
